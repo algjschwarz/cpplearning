@@ -1,6 +1,11 @@
 #include <iostream>
+#include <iomanip>
+#include <limits>
 
 int main(){
-    auto result = (10 <=> 20) > 0;
-    std::cout << result << std::endl;
+    std::cout << std::showpos << std::numeric_limits<int>::max() << std::endl;
+
+
+
+    return 0; 
 }
